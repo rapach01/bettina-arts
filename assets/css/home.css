@@ -1,0 +1,91 @@
+    h1,
+    .nav-link,
+    p,
+    .form-label {
+        color: white;
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.55);
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #E887AA;
+    }
+
+    .navbar-toggler:hover {
+        outline: none;
+        box-shadow: none;
+        border-color: #E887AA;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-link:hover {
+        color: #E887AA;
+    }
+
+    .btn {
+        background-color: #73BBCA;
+        border-color: #73BBCA;
+    }
+
+    .btn:hover {
+        background-color: #FAC841;
+        border-color: #FAC841;
+    }
+
+    .banner_home {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .banner_home img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+        height: 200px;
+    }
+
+    .card-body {
+        flex: 1;
+    }
+
+    footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        border-top: 1px solid #e9ecef;
+    }
+
+    .footer-text {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .footer-text a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .footer-text a:hover {
+        color: #FAC841;
+    }
